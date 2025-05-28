@@ -81,6 +81,7 @@ collection: portfolio
     <li>Implemented secure local data storage using Hive for offline access to transaction history</li>
     <li>Designed interactive charts and visualizations to display monthly expenditure summaries</li>
   </ul>
+  <p><a href="https://github.com/UllasSG/FuelExpenseTracker">View on GitHub</a></p>
   <p><strong>Technologies and Languages Used:</strong></p>
   <ul>
     <li>Flutter</li>

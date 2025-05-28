@@ -82,6 +82,7 @@ collection: portfolio
     <li>Enhanced sports video analytics with bounding box tracking and class segmentation</li>
     <li>Optimized model performance for real-time processing of high-definition broadcast footage</li>
   </ul>
+  <p><a href="https://github.com/UllasSG/BasketballBroadcastVision">View on GitHub</a></p>
   <p><strong>Technologies and Languages Used:</strong></p>
   <ul>
     <li>Python</li>
