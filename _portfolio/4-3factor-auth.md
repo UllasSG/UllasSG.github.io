@@ -74,8 +74,17 @@ excerpt: |
 collection: portfolio
 ---
 
-Designed and implemented a hardware-based multi-factor authentication system using Arduino.
-
-- Integrated biometric fingerprint scanning, RFID tag verification, and secure keypad code entry  
-- Developed firmware to manage authentication processes and security protocols  
-- Created a layered security system with fail-safe mechanisms to prevent unauthorized access  
+<div style="max-width: 800px; margin-top: 30px;">
+  <p>Designed and implemented a hardware-based multi-factor authentication system using Arduino.</p>
+  <ul>
+    <li>Integrated biometric fingerprint scanning, RFID tag verification, and secure keypad code entry</li>
+    <li>Developed firmware to manage authentication processes and security protocols</li>
+    <li>Created a layered security system with fail-safe mechanisms to prevent unauthorized access</li>
+  </ul>
+  <p><strong>Technologies and Languages Used:</strong></p>
+  <ul>
+    <li>Arduino</li>
+    <li>RFID</li>
+    <li>C</li>
+  </ul>
+</div>

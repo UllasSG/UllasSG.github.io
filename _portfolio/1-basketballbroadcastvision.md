@@ -82,4 +82,9 @@ collection: portfolio
     <li>Enhanced sports video analytics with bounding box tracking and class segmentation</li>
     <li>Optimized model performance for real-time processing of high-definition broadcast footage</li>
   </ul>
+  <p><strong>Technologies and Languages Used:</strong></p>
+  <ul>
+    <li>Python</li>
+    <li>YOLOv8</li>
+  </ul>
 </div>

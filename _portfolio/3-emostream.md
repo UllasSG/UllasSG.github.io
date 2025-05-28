@@ -74,10 +74,19 @@ excerpt: |
 collection: portfolio
 ---
 
-Designed a scalable system to process billions of emoji reactions during live sports events.
-
-- Utilized Kafka for queuing and Spark for real-time micro-batch aggregation at 2-second intervals  
-- Built asynchronous API using Flask to receive emoji POST data from multiple clients simultaneously  
-- Implemented load testing to simulate thousands of emoji interactions with high concurrency  
-
-[View on GitHub](https://github.com/UllasSG/EmoStream)
+<div style="max-width: 800px; margin-top: 30px;">
+  <p>Designed a scalable system to process billions of emoji reactions during live sports events.</p>
+  <ul>
+    <li>Utilized Kafka for queuing and Spark for real-time micro-batch aggregation at 2-second intervals</li>
+    <li>Built asynchronous API using Flask to receive emoji POST data from multiple clients simultaneously</li>
+    <li>Implemented load testing to simulate thousands of emoji interactions with high concurrency</li>
+  </ul>
+  <p><a href="https://github.com/UllasSG/EmoStream">View on GitHub</a></p>
+  <p><strong>Technologies and Languages Used:</strong></p>
+  <ul>
+    <li>Kafka</li>
+    <li>Spark</li>
+    <li>Flask</li>
+    <li>Python</li>
+  </ul>
+</div>
