@@ -1,6 +1,6 @@
 ---
 title: "Fuel Expense Tracker"
-excerpt: "A cross-platform app to monitor and analyze fuel expenses.<br/><img src='/images/fuel-exp-tracker-pic-2.jpg' style='width:200px;'>"
+excerpt: "A cross-platform app to monitor and analyze fuel expenses.<br/><img src='/images/fuel-exp-tracker-pic-2.jpg' style='width:500px; height:300px;'>"
 collection: portfolio
 ---
 

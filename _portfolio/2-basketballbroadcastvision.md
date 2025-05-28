@@ -1,6 +1,6 @@
 ---
 title: "BasketballBroadcastVision"
-excerpt: "Sports video analytics using object detection and tracking.<br/><img src=''>"
+excerpt: "Sports video analytics using object detection and tracking.<br/><img src='/images/basketball-vision-pic.jpg' style='width:500px; height:300px;'>"
 collection: portfolio
 ---
 
