@@ -1,5 +1,9 @@
 ---
-title: "Fuel Expense Tracker"
+title: |
+  <h1 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+             font-weight: 700; font-size: 3rem; color: #2c3e50; margin-bottom: 0.5rem;">
+    Fuel Expense Tracker
+  </h1>
 excerpt: |
   A cross-platform app to monitor and analyze fuel expenses.
   <div style='text-align: center; margin-top: 10px;'>
