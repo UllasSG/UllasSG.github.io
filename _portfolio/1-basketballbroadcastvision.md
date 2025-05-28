@@ -1,16 +1,18 @@
 ---
-title: ""
+title: "BasketballBroadcastVision"  # Required for routing
 excerpt: |
-  <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <a href="/portfolio/basketballbroadcastvision" style="text-decoration: none; color: inherit;">
     <div style="
-      width: 260px;
+      width: 320px;
       background: #f5f5f5;
       padding: 1em;
       border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    ">
+      margin: 0 auto;
+      transition: transform 0.2s ease;
+    " onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
       <img src="/images/basketball-vision-pic.jpg" alt="Basketball Vision" style="
         width: 100%;
         height: auto;
@@ -19,11 +21,11 @@ excerpt: |
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       ">
       <div>
-        <p style="margin: 0; font-size: 1.1em; font-weight: 700;">BasketballBroadcastVision</p>
-        <p style="margin: 0; font-size: 0.9em; color: #555;">Sports video analytics using object detection and tracking</p>
+        <p style="margin: 0; font-size: 1.3em; font-weight: 700;">BasketballBroadcastVision</p>
+        <p style="margin: 0; font-size: 0.95em; color: #555;">Sports video analytics using object detection and tracking</p>
       </div>
     </div>
-  </div>
+  </a>
 collection: portfolio
 ---
 
