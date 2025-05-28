@@ -7,8 +7,31 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between the columns */
+  }
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  .portfolio-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
 
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr; /* Stack on smaller screens */
+    }
+  }
+</style>
+
+<div class="portfolio-grid">
+  {% for post in site.portfolio %}
+    <div class="portfolio-item">
+      {% include archive-single.html %}
+    </div>
+  {% endfor %}
+</div>
