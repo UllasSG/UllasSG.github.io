@@ -6,11 +6,50 @@ author_profile: true
 ---
 
 {% if site.author.github %}
-  <div class="wordwrap">You can also find my projects on <a href="{{site.author.github}}">my GitHub profile</a>.</div>
+  <div class="wordwrap">You can also find my projects on <a href="{{ site.author.github }}">my GitHub profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-{% for post in site.projects reversed %}
-  {% include archive-single.html %}
+<!-- Debug: Check if projects collection exists -->
+<p>Found {{ site.projects.size }} projects</p>
+
+{% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+
+{% for post in sorted_projects %}
+  <div class="list__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="archive__item-title" itemprop="headline">
+        {% if post.permalink %}
+          <a href="{{ post.permalink | relative_url }}" rel="permalink">{{ post.title }}</a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+        {% endif %}
+      </h2>
+      
+      {% if post.date %}
+        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}</p>
+      {% endif %}
+      
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+      {% endif %}
+      
+      {% if post.tech_stack %}
+        <p><strong>Tech Stack:</strong> {{ post.tech_stack }}</p>
+      {% endif %}
+      
+      {% if post.venue %}
+        <p><strong>Venue:</strong> {{ post.venue }}</p>
+      {% endif %}
+      
+      {% if post.github_url %}
+        <p><a href="{{ post.github_url }}" class="btn btn--primary btn--small"><i class="fab fa-github"></i> View on GitHub</a></p>
+      {% endif %}
+    </article>
+  </div>
 {% endfor %}
+
+{% if site.projects.size == 0 %}
+  <p>No projects found. Check your _projects directory and front matter.</p>
+{% endif %}
