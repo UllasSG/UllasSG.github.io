@@ -1,0 +1,11 @@
+---
+title: "Fuel Expense Tracker"
+excerpt: "A cross-platform app to monitor and analyze fuel expenses.<br/><img src=''>"
+collection: portfolio
+---
+
+Built a cross-platform mobile application using Flutter to monitor and analyze fuel expenses.
+
+- Integrated third-party API to fetch real-time fuel prices based on user location
+- Implemented secure local data storage using Hive for offline access to transaction history
+- Designed interactive charts and visualizations to display monthly expenditure summaries
