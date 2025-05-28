@@ -12,13 +12,16 @@ author_profile: true
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 20px; /* Space between the columns */
+    background: none; /* Remove any background */
   }
 
   .portfolio-item {
-    border: 1px solid #ddd;
     padding: 15px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    border: none; /* Remove the border */
+    background: none; /* Remove any background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   }
 
   @media (max-width: 768px) {
