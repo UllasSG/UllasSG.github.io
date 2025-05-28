@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ullas's portfolio'"
+title                    : "Ullas's portfolio"
 title_separator          : "-"
 name                     : &name "Ullas"
 description              : &description "personal description"
