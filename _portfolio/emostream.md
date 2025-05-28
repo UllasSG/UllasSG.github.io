@@ -1,6 +1,6 @@
 ---
 title: "EmoStream: Concurrent Emoji Broadcast"
-excerpt: "Scalable emoji reaction processing system for live events.<br/><img src=''>"
+excerpt: "Scalable emoji reaction processing system for live events.<br/><img src='/images/emostream-pic.jpg' style='width:500px; height:300px;'>"
 collection: portfolio
 ---
 

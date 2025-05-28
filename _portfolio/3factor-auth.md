@@ -1,6 +1,6 @@
 ---
 title: "3-Factor Authentication"
-excerpt: "Hardware-based authentication system using Arduino.<br/><img src=''>"
+excerpt: "Hardware-based authentication system using Arduino.<br/><img src='/images/3fa-pic.jpg' style='width:500px; height:300px;'>"
 collection: portfolio
 ---
 
