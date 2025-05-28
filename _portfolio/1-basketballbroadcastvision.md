@@ -14,11 +14,12 @@ excerpt: |
       box-shadow: 0 0 0 5px #ffffff80;
       transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.6s ease;
       text-decoration: none;
+      margin-top: 10px;
     }
 
     .hover-card:hover {
       transform: scale(1.05);
-      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
     .hover-card img {
@@ -27,11 +28,6 @@ excerpt: |
       height: 100%;
       object-fit: cover;
       z-index: 1;
-      transition: opacity 0.6s ease;
-    }
-
-    .hover-card:hover img {
-      opacity: 0;
     }
 
     .hover-card .card__content {
@@ -42,7 +38,7 @@ excerpt: |
       height: 100%;
       padding: 20px;
       box-sizing: border-box;
-      background-color: #f2f2f2;
+      background-color: rgba(242, 242, 242, 0.95);
       transform: rotateX(-90deg);
       transform-origin: bottom;
       transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -63,12 +59,12 @@ excerpt: |
     .hover-card .card__description {
       margin: 10px 0 0;
       font-size: 14px;
-      color: #777;
+      color: #555;
       line-height: 1.4;
     }
   </style>
 
-  <a href="/portfolio/basketballbroadcastvision" class="hover-card">
+  <a href="https://ullassg.github.io//portfolio/1-basketballbroadcastvision/" class="hover-card">
     <img src="/images/basketball-vision-pic.jpg" alt="Basketball Vision">
     <div class="card__content">
       <p class="card__title">BasketballBroadcastVision</p>
