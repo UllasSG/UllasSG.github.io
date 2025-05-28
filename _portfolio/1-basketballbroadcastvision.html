@@ -1,37 +1,84 @@
 ---
 title: "BasketballBroadcastVision"
-excerpt: "<a href='https://ullassg.github.io/portfolio/1-basketballbroadcastvision/' style='text-decoration:none;'>
-  <div style='position:relative; width:360px; height:220px; background-color:#f2f2f2; border-radius:10px; overflow:hidden; box-shadow:0 0 0 5px #ffffff80; transition:all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);'>
-    <img src='/images/basketball-vision-pic.jpg' alt='BasketballBroadcastVision' style='width:100%; height:100%; object-fit:cover; display:block;'>
-    <div style='position:absolute; top:0; left:0; width:100%; height:100%; padding:20px; box-sizing:border-box; background-color:#f2f2f2; color:#333; transform:rotateX(-90deg); transform-origin:bottom; transition:all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); font-size:14px; line-height:1.4;'>
-      Sports video analytics using object detection and tracking.
+excerpt: |
+  <style>
+    .hover-card {
+      position: relative;
+      width: 400px;
+      height: 250px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      display: block;
+      overflow: hidden;
+      perspective: 1000px;
+      box-shadow: 0 0 0 5px #ffffff80;
+      transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.6s ease;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .hover-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .hover-card img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .hover-card .card__content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: rgba(242, 242, 242, 0.95);
+      transform: rotateX(-90deg);
+      transform-origin: bottom;
+      transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      z-index: 2;
+    }
+
+    .hover-card:hover .card__content {
+      transform: rotateX(0deg);
+    }
+
+    .hover-card .card__title {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+      font-weight: 700;
+    }
+
+    .hover-card .card__description {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: #555;
+      line-height: 1.4;
+    }
+  </style>
+
+  <a href="https://ullassg.github.io/portfolio/1-basketballbroadcastvision/" class="hover-card">
+    <img src="/images/basketball-vision-pic.jpg" alt="Basketball Vision">
+    <div class="card__content">
+      <p class="card__title">BasketballBroadcastVision</p>
+      <p class="card__description">Sports video analytics using object detection and tracking.</p>
     </div>
-  </div>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const cards = document.querySelectorAll('a div');
-      cards.forEach(card => {
-        card.addEventListener('mouseenter', () => {
-          const content = card.querySelector('div');
-          content.style.transform = 'rotateX(0deg)';
-        });
-        card.addEventListener('mouseleave', () => {
-          const content = card.querySelector('div');
-          content.style.transform = 'rotateX(-90deg)';
-        });
-      });
-    });
-  </script>
-</a>"
+  </a>
 collection: portfolio
 ---
 
-<h2>BasketballBroadcastVision</h2>
-
-<p>Developed a basketball broadcast analysis tool using YOLOv8 for object detection.</p>
-
-<ul>
-  <li>Implemented tracking algorithms to detect and monitor key elements like players, referees, hoop, and basketball</li>
-  <li>Enhanced sports video analytics with bounding box tracking and class segmentation</li>
-  <li>Optimized model performance for real-time processing of high-definition broadcast footage</li>
-</ul>
+<div style="max-width: 800px; margin-top: 30px;">
+  <p>Developed a basketball broadcast analysis tool using YOLOv8 for object detection.</p>
+  <ul>
+    <li>Implemented tracking algorithms to detect and monitor key elements like players, referees, hoop, and basketball</li>
+    <li>Enhanced sports video analytics with bounding box tracking and class segmentation</li>
+    <li>Optimized model performance for real-time processing of high-definition broadcast footage</li>
+  </ul>
+</div>
