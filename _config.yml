@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ullas S Girish"
+title                    : "Ullas's portfolio'"
 title_separator          : "-"
 name                     : &name "Ullas"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "ullas_pfp.jpg"
-  name             : "Ullas S G"
+  name             : "Ullas S Girish"
   pronouns         : # example: "she/her"  
   bio              : "Computer Science Student"
   location         : "Bengaluru , India"
