@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "👋 Hello there, I'm Ullas!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# 👋 Hello there, I'm Ullas!
 
 I'm Ullas S Girish, a 6th semester student at PES University, Bengaluru, with a love for innovative technology solutions. I'm currently pursuing a BTech degree in Computer Science, graduating class of 2026. I am interested in Big Data, IoT, and Sports Technology.
 
