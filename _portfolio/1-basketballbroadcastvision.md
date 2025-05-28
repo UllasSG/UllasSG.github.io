@@ -1,5 +1,22 @@
 ---
-title: "BasketballBroadcastVision"
+title: |
+  <div style="
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 0.3em 1.2em;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(52, 152, 219, 0.4);
+    cursor: default;
+    user-select: none;
+    margin: 0 auto;
+  ">
+    BasketballBroadcastVision
+  </div>
 excerpt: |
   Sports video analytics using object detection and tracking.
   <div style='text-align: center; margin-top: 10px;'>
